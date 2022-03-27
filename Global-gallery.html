@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Global gallery | CSS</title>
+    <style>
+      /* HM1 revers the rotation order (de la dreapta spre stanga) */
+      body {
+        background: #333;
+      }
+      img {
+        width: 300px;
+        border: 22px solid white;
+        margin-left: -167px;
+        margin-right: -167px;
+      }
+      #gallery {
+        margin-top: 200px;
+
+        text-align: center;
+      }
+      .i-1 {
+        transform: rotate(40deg);
+        border-color: #4d4d4d;
+      }
+      .i-2 {
+        transform: rotate(20deg);
+        border-color: #808080;
+      }
+      .i-3 {
+        transform: rotate(0deg);
+        border-color: #b3b3b3;
+      }
+      .i-4 {
+        transform: rotate(-20deg);
+        border-color: #e6e6e6;
+      }
+      .i-5 {
+        transform: rotate(-40deg);
+      }
+    </style>
+  </head>
+  <body>
+    <p id="gallery">
+      <img
+        class="i-1"
+        src="https://i.picsum.photos/id/692/400/600.jpg?hmac=LkAkevY7jmT--TPujncXl-he1KXy4SGZRadsU1xkdok"
+        alt=""
+      />
+      <img
+        class="i-2"
+        src="https://i.picsum.photos/id/70/400/600.jpg?hmac=Pwx72IxmcxxBu7duhXQLD4frkza27UNouzPT1DfqkfY"
+        alt=""
+      />
+      <img
+        class="i-3"
+        src="https://i.picsum.photos/id/732/400/600.jpg?hmac=G8uDHLhYxzTJC4SOSthhogJZS4OoitM9GqvMb316BeA"
+        alt=""
+      />
+      <img
+        class="i-4"
+        src="https://i.picsum.photos/id/813/400/600.jpg?hmac=r6ECo81hAQVvDEU1kPDzMXDtcbFESDW5BhGo7Hr09IM"
+        alt=""
+      />
+      <img
+        class="i-5"
+        src="https://i.picsum.photos/id/441/400/600.jpg?hmac=uDSoxZ3kl_vKZVBn2Jl2F8GOhFRQ1ucvwkfpsFCIufI"
+        alt=""
+      />
+    </p>
+  </body>
+</html>
